@@ -1,0 +1,25 @@
+{
+  "name": "sphero",
+  "version": "1.0.0",
+  "description": "Sphero Controller",
+  "main": "spheroHaley.js",
+  "dependencies": {
+    "@vital-ai/haley": "0.0.3",
+    "bluebird": "^3.5.1",
+    "dualshock-controller": "^1.1.1",
+    "noble": "^1.8.1",
+    "node-gamepad": "^0.1.15",
+    "sphero": "^0.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sudo node spheroHaley.js"
+  },
+  "keywords": [
+    "sphero",
+    "control",
+    "IoT"
+  ],
+  "author": "Chia Sin",
+  "license": "ISC"
+}
